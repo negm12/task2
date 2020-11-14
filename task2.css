@@ -1,0 +1,130 @@
+*{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.hope{
+    color: #FFF;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    width: 50px;}
+.pairent{
+    width: 500px;
+    height: 550px;
+    margin-left: 620px;
+    margin-right: 0;
+    margin-top: 70px;
+    position: relative;
+    background-color: #FFF;
+    float: left;
+    opacity: .9;
+}
+.child{
+    width: 400px;
+    height: 500px;
+    border-radius: 7%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: #FFF;
+    box-shadow: 0px 0px 20px 7px #AAA;
+    opacity: 1;
+
+}
+.child h2{
+    color:#00F ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.child p{
+    font-weight: bolder ;
+    
+}
+.child input{
+    border:1px solid #AAA;
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    box-shadow:0px 0 10px 3px #AAA inset ;
+}
+.child input:first-of-type{
+    margin-bottom: 40px;
+}
+.child input:last-of-type{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #00F;
+    color: #FFF;
+}
+.child input:last-of-type:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.1,1.1);
+}
+
+.child a{
+    display: inline;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.side{
+    width: 250px;
+    height: 100vh;
+    float: right;
+    background-color: #FFF;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    left: 87%;
+
+}
+.side .menue h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.side .menue ul{
+    list-style: none;
+    overflow: hidden;
+    padding-left: 0px;
+    padding: 10px;
+    
+}
+.side .menue ul li{
+    border-bottom: 2px solid #555;
+    border-top: 2px solid #555;
+    padding-left: 20px;
+}
+.side .menue ul li :hover{
+    padding-left: 50px;
+    transition: all .5s ease-in-out;
+    opacity: .5;
+}
+.side .menue ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 4;
+    color: #333;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.side .menue ul li a img{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    padding-right: 10px;
+}
